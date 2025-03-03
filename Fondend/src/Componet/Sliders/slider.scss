@@ -1,0 +1,13 @@
+@use "../../Style/index" as var;
+@forward "../../Style/index";
+
+
+
+.image-size{
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    
+  
+}
+

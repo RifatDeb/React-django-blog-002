@@ -1,0 +1,79 @@
+@use"../../Style/index" as var ;
+
+.scarch-icon{
+    display: flex;
+    align-items: center;
+     background: #282a28;
+    // padding: 5px 10px;
+    // padding-bottom: 13px;
+    // padding-top: 10px;
+
+    border-radius: 20px;
+
+
+    
+}
+.scarch-logo{
+    color: #fff;
+   
+}
+
+.scarch-icon input{
+//    padding: 6px;
+   background: transparent;
+   border: 0;
+   outline: 0;
+   color: #fff;
+   font-size: 16px;
+   max-width: 100px;
+}
+
+
+.nav-color{
+    text-align: center;
+    background-color: rgb(183, 202, 202);
+    padding:25px;
+    position:absolute;
+    height:90px;
+    width: 100% ;
+    color: #fff;
+    z-index:10;
+   
+    
+}
+
+
+.nav-color.bg{
+    background-color:#b8b897;
+    transition: all 0.3s;
+    position:fixed;
+   }
+
+
+   .bg-dark{
+    background-color: var.$Bg-dark-body;
+   color: var.$Bg-dark-font;
+   }
+
+   .bg-light{
+    background-color: var.$Bg-light-body;
+   color: var.$Bg-light-font;
+   }
+
+
+   .icon-size{
+    width: 30px;
+    height: 30px;
+   }
+
+   .link{
+    color: #fff;
+   }
+
+@media screen and (max-width:767px) {
+    .nav-li{
+        background-color: rgb(136, 132, 132);
+        padding-top: 30px;
+    }
+    
+   }

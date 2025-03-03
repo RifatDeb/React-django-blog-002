@@ -1,0 +1,53 @@
+
+@use "../../Style/index" as var;
+
+.hero-section{
+ 
+ padding-top: 100px;
+
+ 
+
+ p{
+    font-size:var.$p-lg ;
+    font-weight: 400;
+    padding: 8px;
+    text-align: justify;
+ }
+
+ .imges{
+    width:100%;
+    height: auto;
+
+   
+
+   //  img{
+     
+   //      object-fit: cover;
+   //      border-radius: 12px;
+   //  }
+ }
+
+
+}
+
+
+// @media screen and (min-width: 300px) and (max-width: 500px) {
+//    p{
+//       color: #d72727;
+//    }
+//    // .imges{
+//    //    width: ;
+//    // }
+
+//    // img{
+//    //   max-width: 450px; 
+//    // }
+   
+// }
+@media all and (min-width:767px) {
+   
+h1{
+   padding-top: 100px;
+}
+}
+

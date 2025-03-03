@@ -1,0 +1,36 @@
+@use '../../Style/index' as var ;
+
+
+.footer-section{
+    margin-top: 80px;
+    .image-fluid{
+        width: 100%;
+        height:auto;
+    }
+
+    h6{
+        font-size: var.$heading-2;
+        font-weight: 600;
+    }
+    .fast-p{
+        font-size: var.$p-sm;
+        font-weight: 600;
+        color: #B76E79;
+    }
+    .second-p{
+        font-size: var.$p-md;
+        font-weight: 300;
+
+    }
+
+    .leftSite{
+    
+        padding: 100px 56px;
+        text-align: justify;
+        
+       
+    }
+}
+
+
+
